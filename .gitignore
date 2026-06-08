@@ -1,0 +1,7 @@
+data/
+eval_result/
+__pycache__/
+*.pyc
+*.pkl
+*.zip
+.DS_Store

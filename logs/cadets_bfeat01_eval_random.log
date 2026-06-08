@@ -1,0 +1,25 @@
+AUC: 0.9934252729956643
+F1: 0.0
+PRECISION: 1.0
+RECALL: 0.0
+Best threshold: 1991.0277002116609
+TN: 344326
+FN: 12846
+TP: 0
+FP: 1
+Predicted anomalous node count: 1
+Predicted anomalous node indices (in result_x_test): [104]
+
+===== Basic Output =====
+Anomalous node indices (first 20): [104]
+
+===== Label Distribution Among Predicted Anomalous Nodes =====
+label=1.0 count (TP candidates): 0
+label=0.0 count (FP candidates): 1
+
+===== Top True Anomalous Nodes (TP Samples) =====
+
+===== Top False Positive Nodes (FP Samples) =====
+node_idx=104, score=1991.027700, label=0.0
+
+#Test_AUC: 0.9934±0.0000

@@ -1,0 +1,65 @@
+AUC: 0.9941016207378962
+F1: 0.9262298039627351
+PRECISION: 0.8645165643343904
+RECALL: 0.9974311069593648
+Best threshold: 657.5374697760578
+TN: 342319
+FN: 33
+TP: 12813
+FP: 2008
+Predicted anomalous node count: 14821
+Predicted anomalous node indices (in result_x_test): [    36     37    104 ... 356935 357069 357078]
+
+===== Basic Output =====
+Anomalous node indices (first 20): [ 36  37 104 129 175 226 283 327 328 508 526 682 832 918 925 926 927 928
+ 929 939]
+
+===== Label Distribution Among Predicted Anomalous Nodes =====
+label=1.0 count (TP candidates): 12813
+label=0.0 count (FP candidates): 2008
+
+===== Top True Anomalous Nodes (TP Samples) =====
+node_idx=266585, score=1075.363616, label=1.0
+node_idx=269151, score=839.860463, label=1.0
+node_idx=270366, score=839.681453, label=1.0
+node_idx=270479, score=839.681453, label=1.0
+node_idx=270483, score=839.681453, label=1.0
+node_idx=270789, score=839.681453, label=1.0
+node_idx=273396, score=839.681453, label=1.0
+node_idx=273631, score=839.681453, label=1.0
+node_idx=273689, score=839.681453, label=1.0
+node_idx=273720, score=839.681453, label=1.0
+node_idx=276972, score=839.681453, label=1.0
+node_idx=277007, score=839.681453, label=1.0
+node_idx=277054, score=839.681453, label=1.0
+node_idx=277058, score=839.681453, label=1.0
+node_idx=277308, score=839.681453, label=1.0
+node_idx=277364, score=839.681453, label=1.0
+node_idx=277383, score=839.681453, label=1.0
+node_idx=277512, score=839.681453, label=1.0
+node_idx=277555, score=839.681453, label=1.0
+node_idx=278452, score=839.681453, label=1.0
+
+===== Top False Positive Nodes (FP Samples) =====
+node_idx=129, score=2392.850966, label=0.0
+node_idx=104, score=2291.504325, label=0.0
+node_idx=134324, score=2100.861372, label=0.0
+node_idx=105224, score=2092.327267, label=0.0
+node_idx=36, score=1709.312610, label=0.0
+node_idx=233521, score=1441.574244, label=0.0
+node_idx=134314, score=1338.726587, label=0.0
+node_idx=268962, score=1294.936717, label=0.0
+node_idx=3746, score=1222.306313, label=0.0
+node_idx=330982, score=1211.536755, label=0.0
+node_idx=3757, score=1153.064611, label=0.0
+node_idx=925, score=1068.831337, label=0.0
+node_idx=105144, score=1015.730730, label=0.0
+node_idx=105157, score=1009.714706, label=0.0
+node_idx=118581, score=1009.622228, label=0.0
+node_idx=105185, score=1009.511387, label=0.0
+node_idx=112268, score=998.564439, label=0.0
+node_idx=103054, score=967.912367, label=0.0
+node_idx=118443, score=967.912367, label=0.0
+node_idx=125456, score=967.912367, label=0.0
+
+#Test_AUC: 0.9941±0.0000
